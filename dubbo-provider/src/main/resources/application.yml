@@ -1,0 +1,9 @@
+server:
+  port: 8888
+dubbo:
+  application:
+    name: dubbo-provider
+  registry:
+    address: zookeeper://192.168.56.129:2181
+  scan:
+    base-packages: com.fanqiechaodan.service.impl

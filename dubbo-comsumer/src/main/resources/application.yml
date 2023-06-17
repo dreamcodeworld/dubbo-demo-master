@@ -1,0 +1,7 @@
+server:
+  port: 7777
+dubbo:
+  application:
+    name: dubbo-consumer
+  registry:
+    address: zookeeper://192.168.56.129:2181
